@@ -1,0 +1,37 @@
+.body{
+    margin: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:url('../res/image1.jpg')
+}
+.entete{
+    margin: 50px 0px 0px 0px;
+}
+.corp{
+    margin: 5% 20% 20% 20%;
+    border: solid black;
+}
+#nom{
+    text-align: center;
+
+}
+
+.description{
+text-align: justify;
+margin: 10%;
+font-family: 'Times New Roman';
+
+}
+#boutton1, #boutton2, #boutton3{
+    background-color: blue;
+    font-size: 20px;
+}
+.titre1, .titre2{
+    font-size: 23px;
+}
+.soustitre{
+    width: 250px;
+    font-size: 30px;
+}
+
+

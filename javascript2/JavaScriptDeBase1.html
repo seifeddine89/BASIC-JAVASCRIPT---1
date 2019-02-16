@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styleJS2.css">
+    <title>CHEKPOINT3</title>
+</head>
+
+<body class="body">
+    <header class="entete">
+        <h1 id="nom">POINT DE CONTROLE </h1>
+    </header>
+
+    <main class="corp">
+
+        <div>
+            <h2 class="titre1">Veuillez choisir le style d'écriture : </h2>
+
+
+        </div>
+
+        <div class="enligne">
+            <button id="boutton1" onclick="gras()"> Gras</button>
+            <button id="boutton2" onclick="italique()"> Italique</button>
+            <button id="boutton3" onclick="souligner()"> Souligner</button>
+        </div>
+
+
+        <div>
+            <h2 class="titre2">Veuillez choisir la police et la taille de caractère : </h2>
+        </div>
+
+        
+        <div>
+            <span class="soustitre">Police :</span>
+
+            <select id="police" onchange="changepolice()">
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Boomerang">Boomerang</option>
+                <option value="Arial">Arial</option>
+                <option value="Arial Black">Arial Black</option>
+
+            </select>
+        </div>
+
+
+
+        <div>
+            <span class="soustitre">Taille :</span>
+
+
+            <select id="size" onchange="taille()" name="Taille de police" size="1">
+                <option>10</option>
+                <option>12</option>
+                <option>14</option>
+                <option>16</option>
+                <option>18</option>
+                <option>20</option>
+                <option>22</option>
+                <option>28</option>
+                <option>36</option>
+                <option>48</option>
+
+            </select>
+        </div
+        
+        
+        >
+        <div>
+
+            <p class="description"> Javascript
+                Le JavaScript est un langage informatique utilisé sur les pages web. Ce langage à la
+                particularité de
+                s'activer sur le poste client, en d'autres mots c'est votre ordinateur qui va recevoir le code
+                et qui
+                devra
+                l'exécuter. C'est en opposition à d'autres langages qui sont activé côté serveur. L'exécution du
+                code
+                est
+                effectué par votre navigateur internet tel que Firefox ou Internet Explorer.
+
+                L'une des choses primordiale à savoir est de bien se rendre compte que le JavaScript n'a aucun
+                rapport
+                avec
+                le Java qui est un autre langage informatique.
+
+                La particularité du JavaScript consiste à créer des petits scripts sur une page HTML dans le but
+                d'ajouter
+                une petite animation ou un effet particulier sur la page. Cela permet en général d'améliorer
+                l'ergonomie
+                ou
+                l'interface utilisateur, mais certains scripts sont peu utile et servent surtout à ajouter un
+                effet
+                esthétique à la page. L'intérêt du JavaScript est d'exécuté un code sans avoir à recharger une
+                nouvelle
+                fois
+                la page.
+
+                La technique AJAX (Asynchronous Javascript And XML) utilise grandement le JavaScript dans le but
+                d'interagir
+                sur la page de manière dynamique.</p>
+        </div>
+
+
+    </main>
+</body>
+
+<script src="js/mainJS2.js"></script>
+
+
+</html>
